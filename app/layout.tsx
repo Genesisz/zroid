@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { DM_Sans } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 
-const dm_sans = DM_Sans({ subsets: ["latin"] });
+const dm_sans = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Zroid",
